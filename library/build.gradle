@@ -4,7 +4,7 @@ plugins {
     id 'maven-publish'
 }
 
-group = 'com.github.jitpack'
+group = 'com.github.kyunkakata'
 version = '1.0'
 
 android {
@@ -42,7 +42,7 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.jitpack'
+                groupId = 'com.github.kyunkakata'
                 artifactId = 'android-example'
                 version = '1.0'
             }
